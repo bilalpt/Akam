@@ -24,7 +24,7 @@ const About = () => {
                         scale: 1.05,
                         boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.2)"
                     }}
-                    className="bg-[#e67070] h-80 md:w-[45vw] rounded-4xl shadow-lg transition-all duration-300 "
+                    className="bg-[#e67070] md:h-80 md:w-[45vw] rounded-4xl shadow-lg transition-all duration-300 "
                 >
                     <h1 className="text-4xl pt-2 md:pt-10 pl-5 font-bold font-mono text-[#c0f3f0]">About Us</h1>
                     <p className="text-xl px-5 pt-8 font-sans font-thin text-[#c0f3f0]">

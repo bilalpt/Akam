@@ -17,8 +17,8 @@ const Contact = () => {
           <div>
             <div className="flex flex-col items-start">
               <img className="w-64" src={akamlogogreen} alt="Akam Logo" />
-              <p className="pl-10 italic pt-3 text-xl text-[#929191]">
-                Valancheri, Kumbidi
+              <p className="pl-10 italic pt-3  text-[#929191]">
+               Akam Mind care door no.84, 3rd cross, near Jyoti Nivas College Road, Koramangala Industrial Layout, 5th Block, Koramangala, Bengaluru, Karnataka 560095
               </p>
             </div>
 
