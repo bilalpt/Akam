@@ -27,7 +27,7 @@ const OurVision = () => {
           Our Vision
         </h1>
         <p className='pt-3 md:pt-5 text-[#e0e5e7] text-center md:text-left'>
-          To be a trusted provider of mental care,
+             To be a trusted provider of mental care,
           helping individuals find serenity,
           improve their well-being, and live a life
           full of peace, balance, and joy.        </p>
@@ -36,7 +36,7 @@ const OurVision = () => {
           Our Mission
         </h1>
         <p className='pt-3 md:pt-5 text-[#e0e5e7] text-center md:text-left'>
-        o deliver compassionate, evidencebased mental health care that 
+        To deliver compassionate, evidencebased mental health care that 
 empowers individuals to overcome 
 challenges, foster resilience, and thrive.        </p>
       </div>

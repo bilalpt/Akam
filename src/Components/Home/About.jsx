@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 import { useInView } from "react-intersection-observer";
-import about from "../images/aboutimg/about.png";
+import aboutcartoonimg from "../images/aboutimg/aboutcartoonimg.png";
 import about1 from "../images/aboutimg/about1.png";
 
 
@@ -24,7 +24,7 @@ const About = () => {
                         scale: 1.05,
                         boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.2)"
                     }}
-                    className="bg-[#e67070] md:h-80 md:w-[45vw] rounded-4xl shadow-lg transition-all duration-300 "
+                    className="bg-[#064C4C] md:h-80 md:w-[45vw] rounded-4xl shadow-lg transition-all duration-300 "
                 >
                     <h1 className="text-4xl pt-2 md:pt-10 pl-5 font-bold font-mono text-[#c0f3f0]">About Us</h1>
                     <p className="text-xl px-5 pt-8 font-sans font-thin text-[#c0f3f0]">
@@ -46,7 +46,7 @@ const About = () => {
                     transition={{ duration: 1, ease: "easeOut", delay: 0.3 }}
                     className=" mx-8 md:mx-0 md:ml-20"
                 >
-                    <img src={about1} alt="About Us" className="object-cover  md: mt-28 md:mt-0  mb-0 md:mb-24 md:h-[70vh]" />
+                    <img src={aboutcartoonimg} alt="About Us" className="object-cover  md: mt-28 md:mt-0  mb-0 md:mb-24 md:h-[70vh]" />
                 </motion.div>
             </div>
         </div>
