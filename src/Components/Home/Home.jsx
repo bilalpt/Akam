@@ -6,6 +6,7 @@ import Services from './Services';
 import Qasection from './Qasection';
 import Contact from './Contact';
 import FloatingButtons from './FloatingButtons';
+import Blog from './Blog';
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <div id="about"><About /></div>
             <OurVision />
             <div id="services"><Services /></div>
+            <Blog/>
             <Qasection />
             <div id="contact"><Contact /></div>
             <FloatingButtons />
