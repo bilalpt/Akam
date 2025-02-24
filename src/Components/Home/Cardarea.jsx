@@ -19,15 +19,16 @@ const Cardarea = () => {
                 <div className="flex justify-center gap-6 mt-10 flex-wrap">
 
                     {/* Left Card - Comes from Left */}
+
                     <motion.div 
                         initial={{ x: -100, opacity: 0 }}
                         animate={{ x: 0, opacity: 1 }}
                         transition={{ duration: 0.8, ease: "easeOut" }}
-                        className=" bg-red-700 p-6 rounded-lg shadow-lg w-80 text-center border-2 border-transparent hover:border-white transition duration-300"
+                        className=" bg-[#557e6b] p-6 rounded-lg shadow-lg w-80 text-center border-2 border-transparent hover:border-white transition duration-300"
                     >
                         <img src={couple} alt="Mental Health" className="w-40 mx-auto" />
-                        <h2 className="text-xl font-semibold text-white mt-4">Family Counseling</h2>
-                        <p className="mt-2 text-gray-200">
+                        <h2 className="text-xl font-semibold text-[#112417] mt-4">Family Counseling</h2>
+                        <p className="mt-2 text-[#112417]">
                             Explore various therapy options that suit your needs and preferences.
                         </p>
                         <button 
@@ -38,10 +39,10 @@ const Cardarea = () => {
                     </motion.div>
 
                     {/* Center Card - No Animation */}
-                    <div className=" bg-purple-700 p-6 rounded-lg shadow-lg w-80 text-center border-2 border-transparent hover:border-white transition duration-300">
+                    <div className=" bg-[#a3bf84] p-6 rounded-lg shadow-lg w-80 text-center border-2 border-transparent hover:border-white transition duration-300">
                         <img src={single} alt="Counseling" className="w-40 mx-auto" />
-                        <h2 className="text-xl font-semibold text-white mt-4">Individual Counseling</h2>
-                        <p className="mt-2 text-gray-200">
+                        <h2 className="text-xl font-semibold text-[#383b39] mt-4">Individual Counseling</h2>
+                        <p className="mt-2 text-[#383b39]">
                             Get one-on-one sessions tailored to your needs and goals.
                         </p>
                         <button 
@@ -56,11 +57,11 @@ const Cardarea = () => {
                         initial={{ x: 100, opacity: 0 }}
                         animate={{ x: 0, opacity: 1 }}
                         transition={{ duration: 0.8, ease: "easeOut" }}
-                        className=" bg-green-700 p-6 rounded-lg shadow-lg w-80 text-center border-2 border-transparent hover:border-white transition duration-300"
+                        className=" bg-[#A0C1B8] p-6 rounded-lg shadow-lg w-80 text-center border-2 border-transparent hover:border-white transition duration-300"
                     >
                         <img src={Groupimg} alt="Group Therapy" className="w-40 mx-auto" />
-                        <h2 className="text-xl font-semibold text-white mt-4">Remedial Therapy</h2>
-                        <p className="mt-2 text-gray-200">
+                        <h2 className="text-xl font-semibold text-[#383b39] mt-4">Remedial Therapy</h2>
+                        <p className="mt-2 text-[#383b39]">
                         Be part of a nurturing community and embark on a journey of healing and growth together.
                         </p>
                         <button 
