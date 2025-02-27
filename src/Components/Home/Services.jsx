@@ -73,7 +73,7 @@ const Services = () => {
         {cardData.map((item, index) => (
           <motion.div
             key={index}
-            className="max-w-xs w-full p-6 shadow-lg transition-all duration-300 rounded-xl relative bg-gradient-to-b bg-[#e67070] mx-auto"
+            className="max-w-xs w-full p-6 shadow-lg transition-all duration-300 rounded-xl relative bg-gradient-to-b bg-[#a3bf84] mx-auto"
             variants={cardVariants}
             initial="hidden"
             whileInView="visible"
