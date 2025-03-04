@@ -13,8 +13,8 @@ const Cardarea = () => {
     <div className=''>
       <div className='bg-[#064C4C]  md:h-[98vh] md:w-[100vw] rounded-bl-full '>
             <div className="md:h-[98vh] ">
-                <h1 className="text-[#c0f3f0] text-center pt-28 text-4xl md:text-5xl">Peace Begins Inside</h1>
-                <h1 className="text-[#c0f3f0] text-center pt-7 md:text-2xl">What type of therapy are you looking for?</h1>
+                <h1 className="text-[#c0f3f0] text-center pt-28 text-4xl md:text-5xl font-serif">Peace Begins Inside</h1>
+                <h1 className="text-[#c0f3f0] text-center pt-2 md:pt-7 md:text-2xl">What kind of therapy are you looking for?</h1>
 
                 <div className="flex justify-center gap-6 mt-10 flex-wrap">
 

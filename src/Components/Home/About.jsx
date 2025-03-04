@@ -24,11 +24,11 @@ const About = () => {
                         scale: 1.05,
                         boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.2)"
                     }}
-                    className="bg-[#064C4C] md:h-80 md:w-[45vw] rounded-4xl shadow-lg transition-all duration-300 "
+                    className="bg-[#064C4C] h-96 md:h-80 md:w-[45vw] rounded-4xl shadow-lg transition-all duration-300 "
                 >
-                    <h1 className="text-4xl pt-2 md:pt-10 pl-5 font-bold font-mono text-[#c0f3f0]">About Us</h1>
-                    <p className="text-xl px-5 pt-8 font-sans font-thin text-[#c0f3f0]">
-                        Akam Mind Care is a trusted provider of mental health services,
+                    <h1 className="text-4xl pt-5 md:pt-10 pl-5 font-bold font-mono text-[#c0f3f0]">About Us</h1>
+                    <p className="text-xl px-5 pt-2 md:pt-8 font-sans text-[#c0f3f0]  ">
+                    Akam Mind Care is a trusted provider of mental health services,
                         committed to helping individuals find peace within, improve their
                         well-being, and lead a life of balance and joy. Our compassionate
                         approach combines evidence-based techniques with personalized care
