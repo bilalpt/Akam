@@ -26,7 +26,7 @@ const About = () => {
                     }}
                     className="bg-[#064C4C] h-96 md:h-80 md:w-[45vw] rounded-4xl shadow-lg transition-all duration-300 "
                 >
-                    <h1 className="text-4xl pt-5 md:pt-10 pl-5 font-bold font-mono text-[#c0f3f0]">About Us</h1>
+                    <h1 className="text-4xl pt-7 md:pt-10 pl-5 font-bold font-mono text-[#c0f3f0]">About Us</h1>
                     <p className="text-xl px-5 pt-2 md:pt-8 font-sans text-[#c0f3f0]  ">
                     Akam Mind Care is a trusted provider of mental health services,
                         committed to helping individuals find peace within, improve their
